@@ -1,6 +1,6 @@
 package com.globant.exercise1;
 
-public class Battery8Hr implements BatteryFactory{
+public class Battery8Hr implements Battery {
     public Battery8Hr(){
         addBattery();
     }

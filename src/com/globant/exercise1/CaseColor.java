@@ -1,5 +1,5 @@
 package com.globant.exercise1;
 
-public interface CaseColorFactory {
+public interface CaseColor {
     void addCaseColor();
 }

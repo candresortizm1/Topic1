@@ -1,5 +1,5 @@
 package com.globant.exercise1;
 
-public interface MemoryFactory {
+public interface Memory {
     void addMemory();
 }

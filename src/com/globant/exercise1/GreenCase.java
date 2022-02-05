@@ -1,6 +1,6 @@
 package com.globant.exercise1;
 
-public class GreenCase implements CaseColorFactory{
+public class GreenCase implements CaseColor {
     public GreenCase(){
         addCaseColor();
     }

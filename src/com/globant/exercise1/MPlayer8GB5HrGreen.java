@@ -1,18 +1,19 @@
 package com.globant.exercise1;
 
 public class MPlayer8GB5HrGreen implements MusicPlayerFactory{
+
     @Override
-    public MemoryFactory addMemory() {
-        return null;
+    public Memory addMemory() {
+        return new Memory8GB();
     }
 
     @Override
-    public BatteryFactory addBattery() {
-        return null;
-    }
+    public Battery addBattery(){
+        return new Battery5Hr();
+    };
 
     @Override
-    public CaseColorFactory addCaseColor() {
-        return null;
-    }
+    public CaseColor addCaseColor(){
+        return new GreenCase();
+    };
 }

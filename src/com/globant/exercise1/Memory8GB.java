@@ -1,6 +1,6 @@
 package com.globant.exercise1;
 
-public class Memory8GB implements MemoryFactory{
+public class Memory8GB implements Memory {
     public Memory8GB(){
         addMemory();
     }
